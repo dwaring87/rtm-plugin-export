@@ -40,8 +40,7 @@ function action(args, env) {
         rtm.finish();
 
       });
-
-
+      
     });
 
   });
@@ -78,8 +77,6 @@ function _processTasks(tasks) {
     "modified"
   ];
   rtn += _createLine(header);
-
-  console.log(tasks[0]);
 
   // Create each row
   for ( let i = 0; i < tasks.length; i++ ) {
